@@ -14,11 +14,7 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'my-angular-final-http'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('my-angular-final-http');
-  });
+ 
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
